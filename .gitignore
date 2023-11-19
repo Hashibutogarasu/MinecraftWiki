@@ -1,0 +1,24 @@
+# Ignore Gradle project-specific cache directory
+.gradle
+.fabric
+.idea
+
+# Ignore Gradle build output directory
+build
+
+# Ignore Minecraft directory and files
+fabricloader.log
+
+Fabric/.idea
+Fabric/.gradle
+Fabric/build
+Fabric/.fabric
+Fabric/server
+Fabric/run
+
+#Ignore Core directory files
+Core/.gradle
+Core/build
+
+objects
+refs

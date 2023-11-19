@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "minecraftwiki",
+  "version": "${version}",
+  "name": "Minecraft Wiki",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/Karasu/Fabric"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/minecraftwiki/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "git.hashibutogarasu.minecraftwiki.client.MinecraftWikiClientMod"
+    ],
+    "main": [
+      "git.hashibutogarasu.minecraftwiki.MinecraftWikiMod"
+    ]
+  },
+  "mixins": [
+    "minecraftwiki.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
