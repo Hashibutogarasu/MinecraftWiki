@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="minecraft-merged-project-root-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Fabric/.gradle/loom-cache/minecraftMaven/net/minecraft/minecraft-merged-project-root/1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2/minecraft-merged-project-root-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
